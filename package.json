@@ -2,8 +2,8 @@
   "name": "12employeetracker",
   "version": "1.0.0",
   "description": "",
-  "main": "connection.js",
-  "type": "module", 
+  "main": "server.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "console.table": "^0.10.0",
     "inquirer": "^9.2.7",
     "mysql2": "^3.3.3"
   }
